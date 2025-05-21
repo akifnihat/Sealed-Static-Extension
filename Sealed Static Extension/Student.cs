@@ -44,5 +44,10 @@ namespace Sealed_Static_Extension
         {
             return $"Fullname: {Fullname}, GroupNo: {GroupNo}, Age: {Age}";
         }
+
+        public virtual void DoHomeWork()
+        {
+            Console.WriteLine("Metod isledildi");
+        }
     }
 }
